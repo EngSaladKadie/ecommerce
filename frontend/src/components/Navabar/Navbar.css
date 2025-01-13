@@ -5,7 +5,7 @@
    align-items: center;
 }
 .logo{
-    width: 150px;
+    width: 40px;
     
 }
 .navbar .navbar-menu{
@@ -41,4 +41,16 @@
 }
 .navbar li{
     cursor: pointer;
+}
+.navbar-search-icon{
+    position: relative;
+}
+.navbar-search-icon .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius:5px;
+    top: -4px;
+    right: -4px;
 }
